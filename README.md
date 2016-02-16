@@ -21,4 +21,4 @@ docker build -t scala/exer
 ```bash
 docker run -p 9000:9000 scala/exer
 ```
-Then visit: http://<ip-adress>:9000
+Then visit: http://ip-adress:9000
