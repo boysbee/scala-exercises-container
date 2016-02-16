@@ -11,9 +11,9 @@ cd scala-exercises-container
 ```
 
 ```bash
-docker build . scala/exer
+docker build -t scala/exer
 ```
 
 ```bash
-docker run scala/exer
+docker run -p 9000:9000 scala/exer
 ```
